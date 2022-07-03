@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,400;1,100;1,200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #f0f0f0;
+    margin: 0 0 0 0;
+    overflow-y: scroll;
+}
+
+.topnav {
+    background-color: #BE3144;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.topnav ul li {
+    margin-right: 2.75%;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 1.37rem;
+    color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+
+  .hero h1 {
+
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+  }
+
+  .hero p {
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #BE3144;
+    margin: 0;
+  }
+
+  .projects-section {
+    background-color: #45567D;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .projects-section-header {
+    max-width: 640px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.projects-section-header h2 {
+    font-size: 2.7rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 2px solid white;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project-tile {
+  background: #303841;;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
+}
+
+  img {
+    display: block;
+    width: 200px;
+    height: 400px;
+    object-fit:cover;
+  }
+
+  .project-title {
+      font-size: 1.2rem;
+      padding: 0.3rem 0.5rem;
+  }
+
+
+  .project-tile:hover {
+    cursor: pointer;
+  }
+
+  .code {
+    color: #303841;
+    transition: color 0.3s ease-out;
+  }
+  
+  .project-title:hover .code {
+    color: #ff7f50;
+  }
+
+  a:link, a:visited {
+    color: white;}
